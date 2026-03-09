@@ -1,11 +1,28 @@
 # Cost Guard: Multi-Cloud Anomaly Detector(MVP Still wraping my head around it)
-
-> **Internship-Focused Backend MVP for Cloud Cost Anomaly Detection**  
+  
 > *Built with Go | Chi Router | NATS JetStream | PostgreSQL | AWS SDK v2 | React/Next.js*
 
 [![Go Version](https://img.shields.io/badge/go-1.21+-blue)](https://golang.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/status-Interview_MVP-orange)]()
+
+---
+
+## Quick Start With Docker
+
+Run the full stack from the project root with:
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+Services after startup:
+- Web UI: http://localhost:3000
+- API: http://localhost:8080
+- Prometheus: http://localhost:9090
+
+If your machine uses the legacy Compose CLI, use `docker-compose up --build` instead.
 
 ---
 
