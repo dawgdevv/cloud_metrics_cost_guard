@@ -1,4 +1,4 @@
-# 🛡️ Atomity Cost Guard: Multi-Cloud Anomaly Detector
+# Cost Guard: Multi-Cloud Anomaly Detector
 
 > **Internship-Focused Backend MVP for Cloud Cost Anomaly Detection**  
 > *Built with Go | Chi Router | NATS JetStream | PostgreSQL | AWS SDK v2 | React/Next.js*
