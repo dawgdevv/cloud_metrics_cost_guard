@@ -1,4 +1,4 @@
-# Cost Guard: Multi-Cloud Anomaly Detector
+# Cost Guard: Multi-Cloud Anomaly Detector(MVP Still wraping my head around it)
 
 > **Internship-Focused Backend MVP for Cloud Cost Anomaly Detection**  
 > *Built with Go | Chi Router | NATS JetStream | PostgreSQL | AWS SDK v2 | React/Next.js*
@@ -6,28 +6,6 @@
 [![Go Version](https://img.shields.io/badge/go-1.21+-blue)](https://golang.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/status-Interview_MVP-orange)]()
-
----
-
-## 🚀 Project Summary
-
-This project is a deliberately scoped MVP built to demonstrate backend engineering judgment for an internship conversation. It tackles a real problem, cloud cost anomaly detection for AI-heavy workloads, while staying small enough to design, build, explain, and defend within a few days.
-
-The system ingests AWS billing data, stores normalized cost records, runs anomaly detection using a simple statistical baseline, and surfaces suspicious spikes through a small dashboard and Slack alerts.
-
-The point of the project is not to claim a finished startup platform. The point is to show the ability to make sensible tradeoffs, build an event-driven backend, integrate cloud APIs, and present a realistic path from MVP to production.
-
----
-
-## 🎯 Why This Is a Strong Internship Project
-
-This README is written to highlight engineering signal first.
-
-- **Real problem selection:** Cost spikes in GPU and cloud workloads are a concrete operational issue, not a toy CRUD example.
-- **Strong backend scope:** The project covers API design, async processing, job orchestration, persistence, observability, and third-party integrations.
-- **Good product judgment:** The MVP stays AWS-first and avoids pretending to solve every cloud problem at once.
-- **Discussable tradeoffs:** Every major choice has a reason that can be defended in an interview.
-- **Visible demo path:** A reviewer can understand the flow quickly: trigger ingestion, process records, detect anomalies, send alert.
 
 ---
 
