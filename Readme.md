@@ -32,7 +32,7 @@
 
 ## 📈 Practical Value
 
-| Metric | Traditional Tools | Atomity Cost Guard |
+| Metric | Traditional Tools | Cost Guard |
 | :--- | :--- | :--- |
 | **Detection Time** | Manual review after billing sync | **Near real-time after ingestion** |
 | **Cost Visibility** | Delayed dashboards | **Recent usage summary + alerts** |
@@ -249,8 +249,8 @@ Get the MVP running locally in **5 minutes** using Docker Compose.
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/atomity-cost-guard.git
-    cd atomity-cost-guard
+    git clone https://github.com/yourusername/multi_cloud_optimizer.git
+    cd multi_cloud_optimizer
     ```
 
 2.  **Configure Environment**
@@ -325,9 +325,9 @@ scrape_configs:
 
 ---
 
-## 🧩 Why This Fits Atomity
+## 🧩 Why This Project Works
 
-This MVP is aligned with the kind of backend and FinOps problems Atomity operates on, while staying small enough to be completed and explained clearly in an interview setting.
+This MVP is aligned with real backend and FinOps problems while staying small enough to be completed and explained clearly in an interview setting.
 
 1.  **FinOps First:** It moves cost management from reactive billing reviews to proactive engineering alerts.
 2.  **Expandable Design:** The data model and event flow can later support GCP and Azure without requiring them in the first build.

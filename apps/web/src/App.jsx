@@ -29,7 +29,7 @@ export default function App() {
     <div className="shell">
       <header className="hero">
         <p className="eyebrow">Cloud FinOps Platform</p>
-        <h1>Atomity <span>Cost Guard</span></h1>
+        <h1><span>Cost Guard</span></h1>
         <p className="lede">
           Demo mode is active. Generate synthetic billing data, run ingestion locally, and detect
           anomalies without AWS billing access.

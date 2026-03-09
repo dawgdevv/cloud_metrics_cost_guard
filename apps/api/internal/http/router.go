@@ -61,7 +61,7 @@ func NewRouter(cfg config.Config, metrics *appmetrics.Collector, ingestionServic
 
 	r.Get("/", func(w http.ResponseWriter, _ *http.Request) {
 		response := map[string]string{
-			"name":        "Atomity Cost Guard API",
+			"name":        "Cost Guard API",
 			"environment": cfg.Environment,
 			"docs":        "See root README for architecture and API flow.",
 		}
